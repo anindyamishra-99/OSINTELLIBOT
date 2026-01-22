@@ -1,0 +1,13 @@
+{
+  "name": "intellibot-osint-dashboard",
+  "version": "1.0.0",
+  "description": "OSINT Dashboard - Public intelligence aggregation",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install && mkdir -p dist && cp -r api dist/ && cp netlify.toml dist/ && cp index.html dist/ && cp -r assets dist/"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "rss-parser": "^3.13.0"
+  }
+}

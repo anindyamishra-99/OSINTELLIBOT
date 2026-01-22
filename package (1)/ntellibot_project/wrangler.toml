@@ -1,0 +1,21 @@
+# Cloudflare Pages Configuration for !ntellibot OSINT Dashboard
+name = "ntellibot-osint"
+compatibility_date = "2024-01-01"
+
+# Pages Configuration
+[pages]
+# Directory containing static files to deploy (project root)
+pages_build_output_dir = "."
+
+# Main Worker file for API routes
+# Cloudflare Pages will automatically route /api/* to this worker
+main = "_worker.js"
+
+# Environment Variables (optional)
+# Uncomment and configure as needed
+# [env]
+# ACLED_API_KEY = ""
+
+# Vars for API functions
+# [vars]
+# ENV = "production"
