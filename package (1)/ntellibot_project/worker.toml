@@ -1,4 +1,0 @@
-# Cloudflare Worker Configuration for !ntellibot OSINT Dashboard
-name = "ntellibot-osint"
-main = "worker.js"
-compatibility_date = "2024-01-01"
